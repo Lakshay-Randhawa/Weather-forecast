@@ -1,4 +1,6 @@
-const API_KEY = '51373948adcb795d6e1cf8d1dd961ed1'
+const dotenv = require('dotenv');
+dotenv.config();
+const API_KEY = process.env.API_KEY
 
 window.onload = () =>{
 
